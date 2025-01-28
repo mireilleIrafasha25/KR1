@@ -1,0 +1,13 @@
+footer{
+    background-color: black;
+    color: azure;
+}
+.footer-icon{
+    display: flex;
+    gap:15px;
+}
+.footer-icon a{
+    color: rgb(0, 255, 128);
+    font-size: 20px;
+    text-decoration: none;
+}

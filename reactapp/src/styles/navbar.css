@@ -1,0 +1,28 @@
+
+.nav-ul{
+    list-style-type: none;
+    margin-left: 600px;
+    padding: 0;
+    display: flex;
+    gap:20px;
+   
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+.wholenav{
+    display: flex;
+    background-color: black;
+}
+.wholenav .logo a{
+   color:white;
+}
+.wholenav .logo a b{
+    color: #fca311
+}
+.wholenav .logo {
+    padding-top: 15px;
+    padding-left: 40px;
+}
