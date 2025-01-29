@@ -5,16 +5,16 @@
     padding: 0;
     display: flex;
     gap:20px;
-   
 }
 li a{
     text-decoration: none;
     color: white;
 }
-
+.wholeheader{
+    background-color: black;
+    }
 .wholenav{
     display: flex;
-    background-color: black;
 }
 .wholenav .logo a{
    color:white;

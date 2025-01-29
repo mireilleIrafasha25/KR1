@@ -1,8 +1,10 @@
-import React from "react";
+import About from "./About";
+import Service from "./services";
 import "../styles/home.css";
 const Home=()=>
 {
     return(
+      <div>
       <div id="home" class="hero-section">
       <div className="hero-content">
         <div className="hero-text">
@@ -13,9 +15,12 @@ const Home=()=>
           <a href="#" class="btn">Contact Me</a>
         </div>
         <div className="hero-image">
-          <img src="/mimilogo.png" alt="Mireille Irafasha" />
+          <img src="/mimi.jpg" alt="Mireille Irafasha" />
         </div>
       </div>
+    </div>
+    <About /> 
+    <Service />
     </div>
     )
 }
